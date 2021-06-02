@@ -1,10 +1,11 @@
 {
   "name": "blockchain",
   "version": "1.0.0",
-  "description": "Identity management using blockchain",
+  "description": "Blockchain simulation using JavaScript",
   "main": "blockchain.js",
   "type": "module",
   "scripts": {
+    "start": "node blockchain.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Chaitanya Joshi",

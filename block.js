@@ -1,7 +1,7 @@
 import { createHash } from 'crypto';
 
 class Block {
-  constructor(data, timestamp = String(new Date()), previousHash) {
+  constructor(data, previousHash, timestamp = String(new Date())) {
     this.data = data;
     this.timestamp = timestamp;
     this.previousHash = previousHash;
