@@ -59,5 +59,4 @@ class Blockchain {
 //   console.log(block);
 // });
 
-let blockchain = new Blockchain();
-export default blockchain;
+export default new Blockchain();
