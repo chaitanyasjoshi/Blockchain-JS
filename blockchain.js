@@ -41,20 +41,22 @@ class Blockchain {
   }
 }
 
-let blocksToAdd = 5;
+// let blocksToAdd = 5;
 
-const PolyChain = new Blockchain();
+// const PolyChain = new Blockchain();
 
-for (let i = 0; i < blocksToAdd; i++) {
-  PolyChain.addNewBlock(
-    new Block({
-      sender: 'Polycode',
-      receiver: 'Local',
-      message: `Block ${PolyChain.chain.length} has been added to the chain`,
-    })
-  );
-}
+// for (let i = 0; i < blocksToAdd; i++) {
+//   PolyChain.addNewBlock(
+//     new Block({
+//       sender: 'Polycode',
+//       receiver: 'Local',
+//       message: `Block ${PolyChain.chain.length} has been added to the chain`,
+//     })
+//   );
+// }
 
-PolyChain.chain.forEach((block) => {
-  console.log(block);
-});
+// PolyChain.chain.forEach((block) => {
+//   console.log(block);
+// });
+
+export default new Blockchain();
